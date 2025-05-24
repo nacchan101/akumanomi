@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             name: "Mochi-Mochi",
             displayName: "Mochi-Mochi Fruit",
-            description: "A fruit that granrs the user the ability to to create, control, and turn any part of their body into either soft, sticky, stretchy or hard mochi.",
+            description: "A fruit that grants the user the ability to to create, control, and turn any part of their body into either soft, sticky, stretchy or hard mochi.",
             imageFile: "fruit/mochi.png"
         },
         {
