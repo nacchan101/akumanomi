@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             name: "Shadow-Shadow",
             displayName: "Shadow-Shadow Fruit",
-            description: "A fruit that grants the user the ability to manipulate shadows and extracts living or non-living things to store and control them.",
+            description: "A fruit that grants the user the ability to manipulate shadows and extracts living or non-living things to store and control it.",
             imageFile: "fruit/shadow.png"
         },
         {
