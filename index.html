@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akuma No Mi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Devil Fruit/s</h1>
+        <div class="checkbox-grid" id="checkboxContainer">
+        </div>
+        <button class="submit-btn" id="submitBtn">Show Selected Fruits</button>
+        <div class="carousel-container hidden" id="carouselContainer">
+            <div class="carousel" id="carousel">              
+            </div>
+            <button class="carousel-btn prev" id="prevBtn">❮</button>
+            <button class="carousel-btn next" id="nextBtn">❯</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+<!--
+<?php
+/*
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {   
+    if (isset($_POST['fruits']) && is_array($_POST['fruits'])) {
+        $selectedFruits = $_POST['fruits'];
+       
+        foreach ($selectedFruits as $fruit) {
+            echo "You selected: " . htmlspecialchars($fruit) . "<br>";
+        }
+
+        if (in_array(fruit, $selectedFruits)) {
+            echo $"You chose the {fruit} Fruit! Rubber powers activated!";
+        } else {
+            echo "Keep exploring the fruits!";
+        }
+    } else {
+        echo "No fruits selected.";
+    }
+}
+*/
+?>
+-->
+</body>
+</html>
